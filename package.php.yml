@@ -1,0 +1,13 @@
+name: TGamingBot
+version: SNAPSHOT 1.0
+description: Gaming bot for telegram
+deps:
+  jphp-core: '*'
+  jphp-zend-ext: '*'
+  telegram-bot-api: git+https://github.com/jphp-group/jphp-telegram-bot-api
+plugins:
+- App
+sources:
+- src
+includes:
+- index.php
